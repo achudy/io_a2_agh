@@ -11,7 +11,7 @@ ECHO This tool will help you setup Vehicle Detector.
 ECHO:
 ECHO Press 1 to perform full installation, Visual Studio is required %ESC%[32m(recomended)%ESC%[0m
 ECHO Press 2 to install Python 3.8.0 and all necessary modules, %ESC%[31mversion 3.9 is not supported%ESC%[0m
-CHOICE  /c 123 /m "Press 3 to install CUDA 10.1, other versions are not supported"
+CHOICE  /c 123 /m "Press 3 to install CUDA 10.1, other versions are not supported, Visual Studio is required"
 
 IF ERRORLEVEL==3 CALL :cuda
 IF ERRORLEVEL==2 CALL :python
