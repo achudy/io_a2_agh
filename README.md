@@ -16,8 +16,8 @@ Inżynieria Oprogramowania AGH - Grupa A2
 
 ## Table of Contents
 1. [Goal of the Project](#goal-of-the-Project)
-2. [Project requirements](#project-requirements)
-3. [Downloads](#downloads)
+2. [Downloads](#downloads)
+3. [Project requirements](#project-requirements)
 4. [Install instructions with supplied installer](#install-instructions-with-supplied-installer)
 5. [Install requirements when configuring the environment by yourself](#install-requirements-when-configuring-the-environment-by-yourself)
 6. [Usage of the application](#usage-of-the-application)
@@ -28,7 +28,8 @@ Inżynieria Oprogramowania AGH - Grupa A2
 ## Goal of the Project
 This project's goal is to analyze a video in order to detect and recognize vehicles on the road. 
 
-
+## Downloads
+* [Link do Google Drive z plikami do pobrania](http://drive.google.com)
 
 
 
@@ -54,14 +55,11 @@ This project's goal is to analyze a video in order to detect and recognize vehic
 	* Choice of a path to save the outputs
 	* Playback of the analyzed video.
 
-## Downloads
-* [Link do Google Drive z plikami do pobrania](http://drive.google.com)
-
 
 
 ## Install instructions with supplied installer
-0. Make sure you have any application that can by default open a .csv file.
-1. Run install.bat as an Administrator (rightclick on install.bat and "Run as administrator").
+0. Make sure you have any application that can by default open a .csv file (e.g. Libre Office or Microsoft Excel).
+1. Run install.bat as an Administrator (rightclick on install.bat and *Run as administrator*).
 2. Type 1 when prompted to perform full installation.
 3. Install Visual Studio Community 2019 (requirement on Windows) when prompted by the installer.
 4. Install Python 3.8.0 with default settings.
@@ -72,11 +70,11 @@ This project's goal is to analyze a video in order to detect and recognize vehic
 
 
 ## Install requirements when configuring the environment by yourself
-After unzipping files.zip, having installed the required software (Visual Studio [not Code], Python 3.8.0 and CUDA 10.1) build the model in \files\vd by running:
+After unzipping files.zip, having installed the required software (software associated with .csv files, Visual Studio [not Code], Python 3.8.0 and CUDA 10.1) build the model in \files\vd by running:
 
 
 ```
-python save_model.py --weights .\data\yolov4.weights --output .\checkpoints\yolov4-full-416 --model yolov4
+python .\save_model.py --weights .\data\yolov4.weights --output .\checkpoints\yolov4-full-416 --model yolov4
 ```    
     
       
