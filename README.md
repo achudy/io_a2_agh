@@ -1,6 +1,6 @@
 
 # Vehicle Detector
-Chudy Arkadiusz, Kulig Sebastian, Wnęk Karol
+Chudy Arkadiusz, Kulig Sebastian, Wnęk Karol    
 Inżynieria Oprogramowania AGH - Grupa A2
 
 ## Table of Contents
