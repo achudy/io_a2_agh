@@ -3,6 +3,9 @@
 Chudy Arkadiusz, Kulig Sebastian, Wnęk Karol    
 Inżynieria Oprogramowania AGH - Grupa A2
 
+### Sample fragment of an output
+![Output](output.gif)
+
 ## Table of Contents
 1. [Goal of the Project](#goal-of-the-Project)
 2. [Project requirements](#project-requirements)
