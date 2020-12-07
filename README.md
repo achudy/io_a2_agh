@@ -49,6 +49,6 @@ After unzipping files.zip, having installed the required software (Visual Studio
 ### Choosing or changing output paths of the output video and the generated csv report
 ![Changing the path GIF](dest.gif) 
 ### Starting analysis
-![Starting analysis GIF](loaad3.gif) 
+![Starting analysis GIF](load3.gif) 
 ### Result screen
 ![Result PNG](final.PNG)
