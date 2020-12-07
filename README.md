@@ -1,3 +1,4 @@
+
 # Vehicle Detector
 Chudy Arkadiusz, Kulig Sebastian, Wnęk Karol
 Inżynieria Oprogramowania AGH - Grupa A2
@@ -10,7 +11,7 @@ Inżynieria Oprogramowania AGH - Grupa A2
 5. [Usage of the application](#usage-of-the-application)
 
 ## Goal of the Project
-This project's goal is to analyze a video in order to recognize vehicles on the road. 
+This project's goal is to analyze a video in order to detect and recognize vehicles on the road. 
 ## Project requirements
 * Application runs on Windows 10.
 * Analyzed video's quality is to be FHD.
@@ -43,11 +44,11 @@ This project's goal is to analyze a video in order to recognize vehicles on the 
 ## Install requirements when configuring the environment by yourself
 After unzipping files.zip, having installed the required software (Visual Studio [not Code], Python 3.8.0 and CUDA 10.1) build the model in \files\vd by running `python save_model.py --weights .\data\yolov4.weights --output .\checkpoints\yolov4-full-416 --model yolov4` .
 ## Usage of the application
-#### Loading a video file
+### Loading a video file
 ![Loading the file GIF](load.gif) 
-#### Choosing or changing output paths of the output video and the generated csv report
+### Choosing or changing output paths of the output video and the generated csv report
 ![Changing the path GIF](dest.gif) 
-#### Starting analysis
+### Starting analysis
 ![Starting analysis GIF](analysis.gif) 
-#### Result screen
-![Result PNG](result.png) 
+### Result screen
+![Result PNG](result.png)
