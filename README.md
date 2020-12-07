@@ -45,7 +45,22 @@ This project's goal is to analyze a video in order to detect and recognize vehic
 6. After a successful installation of the components, in application files, a model is built.
 
 ## Install requirements when configuring the environment by yourself
-After unzipping files.zip, having installed the required software (Visual Studio [not Code], Python 3.8.0 and CUDA 10.1) build the model in \files\vd by running `python save_model.py --weights .\data\yolov4.weights --output .\checkpoints\yolov4-full-416 --model yolov4` .
+After unzipping files.zip, having installed the required software (Visual Studio [not Code], Python 3.8.0 and CUDA 10.1) build the model in \files\vd by running `python save_model.py --weights .\data\yolov4.weights --output .\checkpoints\yolov4-full-416 --model yolov4`.
+Required python modules:
+* tensorflow-gpu==2.3.0rc0 -> choose this if your machine has CUDA cappable GPU
+* tensorflow==2.3.0rc0 -> choose this if your machine doesn't have CUDA cappable GPU
+* opencv-python==4.1.2.30
+* lxml
+* tqdm
+* absl-py
+* matplotlib
+* easydict
+* pillow
+* numpy==1.18.5
+* numba==0.51.2
+* PyQt5
+* PyQtChart
+
 ## Usage of the application
 ### Loading a video file
 ![Loading the file GIF](load.gif) 
