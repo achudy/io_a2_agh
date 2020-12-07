@@ -3,11 +3,11 @@ Chudy Arkadiusz, Kulig Sebastian, Wnęk Karol
 Inżynieria Oprogramowania AGH - Grupa A2
 
 ## Table of Contents
-1. [Goal of the Project](##goal-of-the-Project)
-2. [Project requirements](##project-requirements)
-3. [Install instructions with supplied installer](##install-instructions-with-supplied-installer)
-4. [Install requirements when configuring the environment by yourself](##install-requirements-when-configuring-the-environment-by-yourself)
-5. [Usage of the application](##usage-of-the-application)
+1. [Goal of the Project](#goal-of-the-Project)
+2. [Project requirements](#project-requirements)
+3. [Install instructions with supplied installer](#install-instructions-with-supplied-installer)
+4. [Install requirements when configuring the environment by yourself](#install-requirements-when-configuring-the-environment-by-yourself)
+5. [Usage of the application](#usage-of-the-application)
 
 ## Goal of the Project
 This project's goal is to analyze a video in order to recognize vehicles on the road. 
