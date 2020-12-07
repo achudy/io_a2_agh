@@ -29,8 +29,7 @@ Inżynieria Oprogramowania AGH - Grupa A2
 This project's goal is to analyze a video in order to detect and recognize vehicles on the road. 
 
 ## Downloads
-* [Link do Google Drive z plikami do pobrania](http://drive.google.com)
-
+* [Google Drive link to download an installator](https://drive.google.com/drive/folders/1YtVwB2Z6ABtF-iqv_muHO0OLtknEEqU9?usp=sharing)
 
 
 ## Set project requirements
